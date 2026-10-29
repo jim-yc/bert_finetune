@@ -86,7 +86,7 @@ MODEL_NAME = "google-bert/bert-base-chinese" # Hugging Face 預訓練模型。
 DATA_DIR = Path("data/bert") # prepare_data.py 的輸出資料夾。
 TRAIN_FILE = "train.jsonl"
 VALID_FILE = "valid.jsonl"
-OUTPUT_DIR = Path("output/bert_binary_clf") # Fine-tuned model 與 checkpoints 的輸出位置。
+OUTPUT_DIR = Path("output/bert_binary_clf2") # Fine-tuned model 與 checkpoints 的輸出位置。
 
 # =============================================================================
 # 3. 模型設定
